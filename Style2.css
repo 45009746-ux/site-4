@@ -1,0 +1,99 @@
+/* ===== STYLE GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("https://images.unsplash.com/photo-1508098682722-e99c643e7f0b?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* ===== TITRE ===== */
+h1 {
+    text-align: center;
+    color: #e30613; /* Rouge PSG */
+    text-shadow: 0 0 15px #004170;
+    margin-top: 40px;
+    animation: slideDown 1.5s ease;
+}
+
+/* ===== TABLE FORMULAIRE ===== */
+table {
+    margin: 50px auto;
+    background: rgba(0, 65, 112, 0.85); /* Bleu PSG */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px red;
+    animation: zoomIn 1.5s ease;
+}
+
+/* ===== INPUTS ===== */
+input, textarea, select {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 10px #e30613;
+    transform: scale(1.05);
+}
+
+/* ===== BOUTONS ===== */
+button {
+    background: #e30613;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: white;
+    color: #004170;
+    transform: scale(1.1);
+}
+
+/* ===== LIEN ===== */
+a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e30613;
+}
+
+/* ===== MENU DEROULANT ===== */
+select {
+    background-color: #e30613;
+    color: white;
+    cursor: pointer;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
