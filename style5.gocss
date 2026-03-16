@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor="green">
+
+	<h1> menu </h1>
+	<a href="présentation perso.html" target="fenetre2"> présentation perso </a> <br>
+	<a href="CV.html" target="fenetre2"> Mon CV </a> <br>
+	<a href="Linkedin.html" target="fenetre2"> Mon linkedin </a> <br>
+	<a href="formations.html" target="fenetre2"> Mes formations </a> <br>
+	<a href="débouchés.html" target="fenetre2"> Mes débouchés </a> <br>
+
+</body>
+</html>
